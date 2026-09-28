@@ -5,7 +5,7 @@ Plataforma web responsiva desenvolvida para simular um ambiente digital voltado 
 🔗 **Demonstração online:**  
 https://leonardocarrara-cloud.github.io/ong-connect/
 
-## 💻 Sobre o projeto
+##  Sobre o projeto
 
 O ONG Connect foi desenvolvido inicialmente como um projeto acadêmico da graduação em Análise e Desenvolvimento de Sistemas, com foco na aplicação prática de conceitos modernos de desenvolvimento Front-end.
 
@@ -26,7 +26,7 @@ Além dos requisitos acadêmicos, o projeto foi publicado no GitHub Pages como p
 - Badges para categorização de informações
 - Estados visuais de botões (`hover`, `focus`, `active` e `disabled`)
 
-## 🛠️ Tecnologias utilizadas
+##  Tecnologias utilizadas
 
 - **HTML5** — estrutura semântica da aplicação
 - **CSS3** — estilização e responsividade
