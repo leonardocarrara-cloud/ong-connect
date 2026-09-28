@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ONG Connect</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<header class="header">
+  <div class="container navbar">
+    <a class="logo" href="#">ONG<span>Connect</span></a>
+    <button class="menu-toggle" aria-label="Abrir menu" aria-expanded="false">☰</button>
+    <nav class="nav-menu" aria-label="Navegação principal">
+      <a href="#projetos">Projetos</a>
+      <a href="#feedback">Feedback</a>
+      <a href="#voluntariado">Voluntariado</a>
+      <a href="#contato">Contato</a>
+    </nav>
+  </div>
+</header>
+
+<main>
+  <section class="hero">
+    <div class="container grid">
+      <div class="hero-content">
+        <span class="badge badge-info">Terceiro setor</span>
+        <h1>Conectando pessoas a projetos que transformam comunidades.</h1>
+        <p>Uma interface demonstrativa para divulgação de projetos, captação de recursos e cadastro de voluntários.</p>
+        <div class="actions">
+          <a class="btn" href="#projetos">Conhecer projetos</a>
+          <button class="btn btn-secondary" id="openModal">Quero ser voluntário</button>
+        </div>
+      </div>
+      <aside class="hero-panel">
+        <strong>Meta mensal</strong>
+        <p class="metric">72%</p>
+        <div class="progress"><span></span></div>
+        <small>Recursos captados para projetos ativos</small>
+      </aside>
+    </div>
+  </section>
+
+  <section class="section container" id="projetos">
+    <div class="section-heading">
+      <div><span class="eyebrow">Projetos</span><h2>Iniciativas em destaque</h2></div>
+      <span class="badge badge-success">3 projetos ativos</span>
+    </div>
+
+    <div class="grid cards">
+      <article class="card">
+        <div class="card-top"><span class="badge badge-success">Ativo</span><span class="badge badge-info">Educação</span></div>
+        <h3>Futuro na Escola</h3><p>Apoio educacional e oficinas de tecnologia para jovens.</p>
+        <div class="card-footer"><strong>68% da meta</strong><button class="btn small donate">Apoiar</button></div>
+      </article>
+      <article class="card">
+        <div class="card-top"><span class="badge badge-warning">Voluntários</span><span class="badge badge-info">Comunidade</span></div>
+        <h3>Rede Solidária</h3><p>Distribuição de alimentos e itens essenciais para famílias.</p>
+        <div class="card-footer"><strong>24 vagas</strong><button class="btn small donate">Apoiar</button></div>
+      </article>
+      <article class="card">
+        <div class="card-top"><span class="badge badge-success">Meta atingida</span><span class="badge badge-info">Ambiente</span></div>
+        <h3>Verde no Bairro</h3><p>Revitalização de áreas verdes com participação comunitária.</p>
+        <div class="card-footer"><strong>100% da meta</strong><button class="btn small" disabled>Concluído</button></div>
+      </article>
+    </div>
+  </section>
+
+  <section class="section alt" id="feedback">
+    <div class="container">
+      <span class="eyebrow">Componentes de feedback</span><h2>Estados semânticos</h2>
+      <div class="alerts">
+        <div class="alert success"><strong>Sucesso:</strong> cadastro realizado corretamente.</div>
+        <div class="alert warning"><strong>Atenção:</strong> alguns dados ainda precisam ser revisados.</div>
+        <div class="alert error"><strong>Erro:</strong> não foi possível concluir a operação.</div>
+      </div>
+      <button class="btn" id="showToast">Exibir toast de sucesso</button>
+    </div>
+  </section>
+
+  <section class="section container" id="voluntariado">
+    <div class="grid">
+      <div class="form-copy">
+        <span class="eyebrow">Voluntariado</span><h2>Faça parte da rede</h2>
+        <p>O formulário demonstra estados de foco e validação visual de campos.</p>
+      </div>
+      <form class="form-card" id="volunteerForm" novalidate>
+        <label>Nome completo<input name="nome" required placeholder="Digite seu nome"></label>
+        <label>E-mail<input type="email" name="email" required placeholder="voce@email.com"></label>
+        <label>Área de interesse
+          <select name="area" required><option value="">Selecione</option><option>Educação</option><option>Comunidade</option><option>Meio ambiente</option></select>
+        </label>
+        <p class="form-message" aria-live="polite"></p>
+        <button class="btn" type="submit">Enviar inscrição</button>
+      </form>
+    </div>
+  </section>
+</main>
+
+<footer class="footer" id="contato"><div class="container footer-flex"><strong>ONG Connect</strong><span>Projeto acadêmico demonstrativo • ADS</span></div></footer>
+
+<div class="toast" id="toast" role="status" aria-live="polite">✓ Operação realizada com sucesso!</div>
+
+<div class="modal-backdrop" id="modal" aria-hidden="true">
+  <div class="modal" role="dialog" aria-modal="true" aria-labelledby="modalTitle">
+    <button class="modal-close" id="closeModal" aria-label="Fechar">×</button>
+    <span class="badge badge-success">Voluntariado</span>
+    <h2 id="modalTitle">Transforme vontade em ação</h2>
+    <p>Cadastre seus dados na seção de voluntariado e escolha a área em que deseja contribuir.</p>
+    <button class="btn" id="modalOk">Entendi</button>
+  </div>
+</div>
+<script src="js/script.js"></script>
+</body>
+</html>
