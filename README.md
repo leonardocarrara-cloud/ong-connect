@@ -1,4 +1,4 @@
-# 🌱 ONG Connect
+#  ONG Connect
 
 Plataforma web responsiva desenvolvida para simular um ambiente digital voltado a organizações do terceiro setor, permitindo apresentar projetos, incentivar o voluntariado e demonstrar diferentes formas de interação com o usuário.
 
@@ -13,7 +13,7 @@ O projeto utiliza HTML5, CSS3 e JavaScript para construir uma interface responsi
 
 Além dos requisitos acadêmicos, o projeto foi publicado no GitHub Pages como parte do meu portfólio de desenvolvimento.
 
-## 🚀 Funcionalidades
+##  Funcionalidades
 
 - Interface responsiva para desktop, tablet e dispositivos móveis
 - Menu de navegação responsivo com versão hambúrguer
@@ -33,7 +33,7 @@ Além dos requisitos acadêmicos, o projeto foi publicado no GitHub Pages como p
 - **JavaScript** — interações e comportamento dos componentes
 - **GitHub Pages** — publicação da aplicação
 
-## 🎨 Conceitos aplicados
+##  Conceitos aplicados
 
 O projeto utiliza um Design System baseado em variáveis CSS para manter consistência entre cores, tipografia e espaçamentos.
 
@@ -50,13 +50,13 @@ Também foram aplicados:
 - Componentes reutilizáveis de interface
 - Princípios básicos de acessibilidade
 
-## 📱 Responsividade
+##  Responsividade
 
 A interface utiliza diferentes breakpoints para adaptar a distribuição dos componentes conforme a largura da tela.
 
 Em dispositivos móveis, elementos são reorganizados verticalmente e o menu tradicional é substituído por um menu hambúrguer. Em tablets e desktops, o Grid permite aproveitar melhor o espaço horizontal disponível.
 
-## 📂 Estrutura do projeto
+##  Estrutura do projeto
 
 ```text
 ong-connect/
@@ -66,14 +66,14 @@ ong-connect/
 └── README.md
 ```
 
-## ▶️ Executando localmente
+##  Executando localmente
 
 Não é necessário instalar dependências.
 
 1. Faça o download ou clone o repositório.
 2. Abra o arquivo `index.html` em um navegador moderno.
 
-## 🎓 Contexto
+##  Contexto
 
 Projeto desenvolvido durante a graduação em **Análise e Desenvolvimento de Sistemas (ADS)** com o objetivo de praticar desenvolvimento Front-end e consolidar conhecimentos de HTML, CSS, responsividade e interatividade com JavaScript.
 
